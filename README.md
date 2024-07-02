@@ -2,6 +2,6 @@ Welcome to the future! It's a python operating system, it's the future... it's t
 <br>
 *Run it like this:*
 <br>
-``` PowerShell
+```PowerShell
 py OS.py
 ```
