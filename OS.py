@@ -24,7 +24,7 @@ class EditorTexto(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
-        self.driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "09102012"))  # Atualize a senha aqui
+        self.driver = GraphDatabase.driver("bolt://localhost:7687", auth=("user", "password"))  # Atualize a senha aqui
 
     def initUI(self):
         self.setWindowTitle('Editor de Texto')
